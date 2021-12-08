@@ -1,5 +1,6 @@
 conflict_line
 123
+aaaaaaa123
 git pull
 add line
 commit test
