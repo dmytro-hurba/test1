@@ -1,0 +1,7 @@
+sudo java -Xms8g -Xmx16g -cp processor.jar -Dconfig.file=./application.conf -Dsys.prop.log.console.level=INFO com.livescore.data.BR --api-stage-info
+sudo java -Xms8g -Xmx16g -cp processor.jar -Dconfig.file=./application.conf -Dsys.prop.log.console.level=INFO com.livescore.data.BR --api-participants 
+sudo java -Xms8g -Xmx16g -cp processor.jar -Dconfig.file=./application.conf -Dsys.prop.log.console.level=INFO com.livescore.data.BR --api-events
+
+sudo java -cp processor.jar -Dconfig.file=./application.conf -Dsys.prop.log.console.level=INFO -Dsys.prop.log.file.async.level=INFO -Dsys.prop.log.dir=logs com.livescore.data.BR --api-events
+
+sudo java -cp processor.jar -Dconfig.file=./application.conf -Dsys.prop.log.console.level=INFO -Dsys.prop.log.file.async.level=INFO -Dsys.prop.log.dir=logs com.livescore.data.BR --init-kafka
