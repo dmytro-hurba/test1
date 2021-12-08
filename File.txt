@@ -1,4 +1,4 @@
-test2/n
+conflict_line
 123
 git pull
 add line
